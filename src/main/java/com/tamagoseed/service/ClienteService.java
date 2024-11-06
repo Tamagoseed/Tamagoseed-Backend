@@ -83,7 +83,7 @@ public class ClienteService {
 	                	
 	                	clienteLogin.get().setId(cliente.get().getId());
 	                    clienteLogin.get().setRazaoSocial(cliente.get().getRazaoSocial());
-	                    clienteLogin.get().setCnpj(cliente.get().getCpf());
+	                    clienteLogin.get().setCpf(cliente.get().getCpf());
 	                    clienteLogin.get().setFoto(cliente.get().getFoto());
 	                    clienteLogin.get().setToken(gerarToken(clienteLogin.get().getEmail()));
 	                    clienteLogin.get().setSenha("");

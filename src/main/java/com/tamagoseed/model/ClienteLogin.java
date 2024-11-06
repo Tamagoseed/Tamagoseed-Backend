@@ -9,7 +9,7 @@ public class ClienteLogin {
 	
 	private String email;
 	
-	private String cnpj;
+	private String cpf;
 	
 	private String senha;
 	
@@ -43,12 +43,12 @@ public class ClienteLogin {
 		this.email = email;
 	}
 	
-	public String getCnpj() {
-		return cnpj;
+	public String getCpf() {
+		return cpf;
 	}
 
-	public void setCnpj(String cnpj) {
-		this.cnpj = cnpj;
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 
 	public String getSenha() {
