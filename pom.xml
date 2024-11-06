@@ -89,17 +89,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Dependências do seu projeto (exemplos de dependências adicionais) -->
-        <dependency>
-        	<groupId>br.com.lojadegames</groupId>
-        	<artifactId>Loja-de-Games</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-        	<groupId>com.generation</groupId>
-        	<artifactId>blogpessoal</artifactId>
-        	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
     <build>
