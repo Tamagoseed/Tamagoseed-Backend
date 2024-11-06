@@ -49,7 +49,6 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <!-- <version>42.5.0</version> -->
         </dependency>
 
         <!-- Test Dependencies -->
@@ -115,10 +114,9 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.32</version> <!-- Verifique a versão mais recente fd -->
+		    <version>8.0.32</version> <!-- Removido pois não é mais necessário -->
 		</dependency>
 
-	
     </dependencies>
 
     <build>
