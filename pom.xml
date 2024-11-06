@@ -44,10 +44,12 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
+        <!-- Dependência do PostgreSQL -->
         <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <!-- <version>42.5.0</version> -->
         </dependency>
 
         <!-- Test Dependencies -->
@@ -86,6 +88,8 @@
             <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- Dependências do seu projeto (exemplos de dependências adicionais) -->
         <dependency>
         	<groupId>br.com.lojadegames</groupId>
         	<artifactId>Loja-de-Games</artifactId>
