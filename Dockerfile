@@ -1,5 +1,8 @@
 FROM openjdk:17.0.1-jdk-oracle as build
 
+# Instalar Maven
+RUN apt-get update && apt-get install -y maven
+
 WORKDIR /workspace/app
 
 COPY mvnw .
