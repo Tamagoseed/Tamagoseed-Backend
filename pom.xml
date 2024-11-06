@@ -107,6 +107,12 @@
 		    <artifactId>springdoc-openapi-ui</artifactId>
 		    <version>1.6.15</version>  <!-- Update to a working version -->
 		</dependency>
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-ehcache</artifactId>
+		    <version>5.5.7.Final</version> <!-- ou outra versão compatível com seu projeto -->
+		</dependency>
+	
     </dependencies>
 
     <build>
