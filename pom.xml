@@ -45,7 +45,7 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- Dependência do PostgreSQL -->
+        <!-- PostgreSQL Dependency -->
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -88,14 +88,14 @@
             <scope>test</scope>
         </dependency>
 		
-		<!-- Dependência para Swagger Core -->
+		<!-- Swagger Dependencies -->
 		<dependency>
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-swagger2</artifactId>
 		    <version>2.9.2</version>
 		</dependency>
 		
-		<!-- Dependência para Swagger Annotations -->
+		<!-- Swagger Annotations -->
 		<dependency>
 		    <groupId>io.swagger</groupId>
 		    <artifactId>swagger-annotations</artifactId>
@@ -104,19 +104,15 @@
 		<dependency>
 		    <groupId>org.springdoc</groupId>
 		    <artifactId>springdoc-openapi-ui</artifactId>
-		    <version>1.6.15</version>  <!-- Update to a working version -->
+		    <version>1.6.15</version>
 		</dependency>
+		
+		<!-- Hibernate EhCache -->
 		<dependency>
 		    <groupId>org.hibernate</groupId>
 		    <artifactId>hibernate-ehcache</artifactId>
-		    <version>5.5.7.Final</version> <!-- ou outra versão compatível com seu projeto -->
+		    <version>5.5.7.Final</version>
 		</dependency>
-		<dependency>
-		    <groupId>mysql</groupId>
-		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.32</version> <!-- Removido pois não é mais necessário -->
-		</dependency>
-
     </dependencies>
 
     <build>
