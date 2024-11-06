@@ -115,7 +115,7 @@
 		<dependency>
 		    <groupId>mysql</groupId>
 		    <artifactId>mysql-connector-java</artifactId>
-		    <version>8.0.32</version> <!-- Verifique a versão mais recente -->
+		    <version>8.0.32</version> <!-- Verifique a versão mais recente fd -->
 		</dependency>
 
 	
