@@ -112,6 +112,12 @@
 		    <artifactId>hibernate-ehcache</artifactId>
 		    <version>5.5.7.Final</version> <!-- ou outra versão compatível com seu projeto -->
 		</dependency>
+		<dependency>
+		    <groupId>mysql</groupId>
+		    <artifactId>mysql-connector-java</artifactId>
+		    <version>8.0.32</version> <!-- Verifique a versão mais recente -->
+		</dependency>
+
 	
     </dependencies>
 
