@@ -32,7 +32,11 @@ public class ClienteService {
 	    @Autowired
 	    private AuthenticationManager authenticationManager;
 	    
-	    
+	    public Optional<Cliente> findByEmail(String email) {
+			return null;
+		}{
+	        
+	    }
 
 	    public Optional<Cliente> cadastrarCliente(Cliente cliente) {
 
