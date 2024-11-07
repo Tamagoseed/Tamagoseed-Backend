@@ -31,6 +31,8 @@ public class ClienteService {
 	    
 	    @Autowired
 	    private AuthenticationManager authenticationManager;
+	    
+	    
 
 	    public Optional<Cliente> cadastrarCliente(Cliente cliente) {
 
