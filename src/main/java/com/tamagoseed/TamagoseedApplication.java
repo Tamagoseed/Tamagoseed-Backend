@@ -26,7 +26,7 @@ public class TamagoseedApplication {
     @Bean
     public CommandLineRunner demo() {
         return (args) -> {
-            // Crie um novo cliente com senha criptografada
+            // Crie um novo cliente com senha criptogra
             Cliente cliente = new Cliente(null, null, null, null, null, null);
             cliente.setEmail("seed01ti@gmail.com");
             cliente.setSenha(new BCryptPasswordEncoder().encode("Tamago@123"));
